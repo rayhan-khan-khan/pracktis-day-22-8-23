@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my bank</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="text-center mt-6">
+        <h1 class="text-4xl font-bold">welcome to <span class="text-[#E527B2]">my bank</span></h1>
+    </header>
+    <main>
+        <section class="mt-12">
+            <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto">
+                <div class="bg-[#E527B2] p-6 rounded-lg">
+                    <h4 class="text-3xl text-white">Deposit</h4>
+                    <p class="text-4xl text-white">$00</p>
+                </div>
+                <div class="bg-green-400 p-6 rounded-lg">
+                    <h4 class="text-3xl text-white">Withdraw</h4>
+                    <p class="text-4xl text-white">$00</p>
+                </div>
+                <div class="bg-[#E527B2] p-6 rounded-lg">
+                    <h4 class="text-3xl text-white">Balance</h4>
+                    <p class="text-4xl text-white">$1240</p>
+                </div>
+            </div>
+        </section>
+        <section class="mt-12">
+            <div class="grid grid-cols-2 gap-4 w-9/12 mx-auto">
+                <div class="bg-[#E527B2] p-6 rounded-lg">
+                    <h4 class="text-3xl text-white">Please Deposit</h4>
+                    <div>
+                        <input class="block font-bold w-9/12 mt-4 mb-2 rounded-lg border-4" type="email" name="" id="" placeholder="$ amount windraw">
+                        <button id="btn-deposit" class="px-4 py-2 bg-green-800 text-[#FFF] rounded-lg font-semibold">Deposit</button>
+                    </div>
+                </div>
+                <div class="bg-[#E527B2] p-6 rounded-lg">
+                    <h4 class="text-3xl text-[#FFF]">Please windraw</h4>
+                    <div>
+                        <input class="block font-bold w-9/12 mt-4 mb-2 rounded-lg border-4" type="text" name="" id="" placeholder="$ amount windraw">
+                        <button id="btn-windrae" class="px-4 py-2 bg-green-800 text-[#FFF] rounded-lg font-semibold">windraw</button>
+                    </div>
+                </div>
+                </div>
+        </section>
+    </main>
+</body>
+</html>
